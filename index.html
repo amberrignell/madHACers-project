@@ -96,7 +96,8 @@
       <div class="item">
         <img src="images/18011034_10213456259751019_4110301151319499787_n.jpg" alt="New York">
       </div>
-
+      AIzaSyDb5NCsL7jEZL1Ke3ZWx7qbbG4FrM_N9rU
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb5NCsL7jEZL1Ke3ZWx7qbbG4FrM_N9rU&callback=myMap"></script>
     </div>
 
     <!-- Left and right controls -->
@@ -118,13 +119,32 @@
   </div>
   <div class="col-sm-4">
     <h3> Hours </h3>
-    <p> ??? </p>
+    <p> Monday: 11:00-23:30 </br> Tuesday: 11:00-23:30 </br> Wednesday: 11:00-23:30 </br> Thursday: 11:00-24:30 </br> Friday: 11:00-24:30 </br> Saturday: 11:00-01:00 </br> Sunday: CLOSED </br></p>
   </div>
   <div class="col-sm-4">
     <h3> Map </h3>
     <p> Calle San José, Trinidad, Cuba </p>
-    <img>?????????
+      <div id="map" style="width:400px;height:400px;background:yellow"></div>
   </div>
+
+  <div class="navbar-header">
+    <a class="navbar-brand" href="https://www.google.co.uk/maps/place/Caf%C3%A9+El+Mago/@21.8069483,-79.9872148,17z/data=!3m1!4b1!4m5!3m4!1s0x8f2ae44215f975ab:0xffcda4bd2c5624bd!8m2!3d21.8069433!4d-79.9850261">
+      <img alt="Brand" src="images/bar_banner.jpg">
+    </a>
+  </div>
+
+  <script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(21.8069483, -79.9872148),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://www.google.co.uk/maps/place/Caf%C3%A9+El+Mago/@21.8069483,-79.9872148,17z/data=!3m1!4b1!4m5!3m4!1s0x8f2ae44215f975ab:0xffcda4bd2c5624bd!8m2!3d21.8069433!4d-79.9850261"></script>
 
   <div id='social-buttons'>
     <button class='btn btn-lg btn-twitter'>Twitter</button>
