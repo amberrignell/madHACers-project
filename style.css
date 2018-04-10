@@ -1,14 +1,13 @@
 
 body {
-  text-align: center;
   background-size: cover;
-  color: white;
+  color: black;
   font-family: Arial;
   margin: 0;
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 ul.nav li{
@@ -58,4 +57,7 @@ max-height: 1000px;
   background-image: url("images/aboutbackground.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+.dropdown {
+  position: relative;
 }
