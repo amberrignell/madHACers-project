@@ -47,6 +47,14 @@ body {
   box-sizing: border-box;
 }
 
+.carousel-inner  .item  img{
+margin:auto;
+width:1000px;
+height:1000px;
+max-width: 10000px;
+max-height: 1000px;
+}
+
 /* css related to the about page */
 .jumbotron {
   opacity: 0.7;
