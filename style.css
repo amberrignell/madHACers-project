@@ -1,13 +1,13 @@
 
 body {
   background-size: cover;
-  color: black;
+  color: white;
   font-family: Arial;
   margin: 0;
 }
 
 p {
-  color: black;
+  color: white;
 }
 
 ul.nav li{
@@ -16,10 +16,6 @@ ul.nav li{
     letter-spacing: 1px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.social-buttons {
-  margin:auto;
 }
 
 ul {
@@ -63,12 +59,20 @@ max-height: 1000px;
   background-attachment: fixed;
 }
 <<<<<<< HEAD
+
+<<<<<<< HEAD
 .dropdown {
   position: relative;
-}
 =======
+.dropdown{
+  display:inline-block;
+>>>>>>> ce073f2febcb8cb56490168e7892dad1fb7f5892
+}
+.dropdown_container {
+  text-align:center;
+}
+
 
 #mojito { position: absolute; visibility: visible; left: 20px; top: 700px; height: 100px; width: 700px; z-index: 200; }
 #cubalibre { position: absolute; visibility: visible; left: 700px; top: 700px; height: 400px; width: 1000px; z-index: 200; }
 #people { position: absolute; visibility: visible; left: 200px; top: 700px; height: 800px; width: 1000px; z-index: 200; }
->>>>>>> f70bb6d7a9c7519eda9ba1c748118939d1746224
