@@ -24,10 +24,21 @@
 </head>
 <body>
 <header>
-      <ulclass='nav'>
-        <li > <a href='index.html'> Home </a> </li>
-        <li > <a href='about.html'> About </a> </li>
-        <li> <a href='menu.html'> Menu </a> </li>
+  <div class="jumbotron">
+    <div class="row">
+    <div class="col-sm-12 dropdown_container">
+      <div class="dropdown">
+         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Home
+         <span class="caret"></span></button>
+         <ul class="dropdown-menu">
+           <li><a href="index.html"> Home </a></li>
+           <li><a href="about.html"> About </a></li>
+           <li><a href="menu.html"> Menu </a></li>
+         </ul>
+       </div>
+     </div>
+    </div>
+
       <h1> Drinks Menu </h1>
       <h2> Serving authentic cuban cocktails... </h2>
       </ulclass='nav'>
@@ -68,5 +79,9 @@
   <button class='btn btn-lg btn-pinterest'>Pinterest</button>
 </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>
