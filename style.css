@@ -1,62 +1,36 @@
-
+a {
+  text-decoration: none;
+}
 body {
   background-size: cover;
   color: white;
   font-family: Arial;
   margin: 0;
 }
-
-p {
-  color: white;
-}
-
-ul.nav li{
-    display: inline-block;
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-ul {
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  width: 33%;
-  height: auto;
-  vertical-align: middle;
-}
-
-img.team {
-  border-radius: 50%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .carousel-inner  .item  img{
 margin:auto;
 width:1000px;
 height:1000px;
 max-width: 10000px;
 max-height: 1000px;
-<<<<<<< HEAD
-=======
 }
-
-#social-buttons {
-  text-align: center;
->>>>>>> parent of 8dc537d... About page layout
+.dropdown {
+  display:inline-block;
+  position: relative;
 }
-
-/* css related to the about page */
-.jumbotron {
+.dropdown_container {
+  text-align:center;
+}
+img {
+  width: 33%;
+  height: auto;
+  vertical-align: middle;
+}
+img.team {
+  border-radius: 50%;
+}
+.general {
+  color: white;
   opacity: 0.7;
   padding-top: 90px;
   min-height: 600px;
@@ -65,21 +39,25 @@ max-height: 1000px;
   background-size: cover;
   background-attachment: fixed;
 }
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-.dropdown {
-  position: relative;
-=======
-.dropdown{
-  display:inline-block;
->>>>>>> ce073f2febcb8cb56490168e7892dad1fb7f5892
+p {
+  color: white;
 }
-.dropdown_container {
-  text-align:center;
+#social-buttons {
+  text-align: center;
 }
-
-
+ul {
+  text-align: center;
+}
+ul.nav li{
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+* {
+  box-sizing: border-box;
+}
 #mojito { position: absolute; visibility: visible; left: 20px; top: 700px; height: 100px; width: 700px; z-index: 200; }
 #cubalibre { position: absolute; visibility: visible; left: 700px; top: 700px; height: 400px; width: 1000px; z-index: 200; }
 #people { position: absolute; visibility: visible; left: 200px; top: 700px; height: 800px; width: 1000px; z-index: 200; }
