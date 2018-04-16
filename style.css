@@ -46,6 +46,13 @@ width:1000px;
 height:1000px;
 max-width: 10000px;
 max-height: 1000px;
+<<<<<<< HEAD
+=======
+}
+
+#social-buttons {
+  text-align: center;
+>>>>>>> parent of 8dc537d... About page layout
 }
 
 /* css related to the about page */
