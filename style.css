@@ -14,13 +14,7 @@ height:1000px;
 max-width: 10000px;
 max-height: 1000px;
 }
-.dropdown {
-  display:inline-block;
-  position: relative;
-}
-.dropdown_container {
-  text-align:center;
-}
+
 img {
   width: 33%;
   height: auto;
@@ -38,6 +32,7 @@ img.team {
   background-image: url("images/aboutbackground.jpg");
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
 }
 p {
   color: white;
@@ -62,3 +57,11 @@ ul.nav li{
 #mojito { position: absolute; visibility: visible; left: 20px; top: 700px; height: 100px; width: 700px; z-index: 200; }
 #cubalibre { position: absolute; visibility: visible; left: 700px; top: 700px; height: 400px; width: 1000px; z-index: 200; }
 #people { position: absolute; visibility: visible; left: 200px; top: 700px; height: 800px; width: 1000px; z-index: 200; }
+
+.dropdown {
+  display:inline-block;
+  position: relative;
+}
+.dropdown_container {
+  text-align:center;
+}
