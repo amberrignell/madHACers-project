@@ -48,10 +48,6 @@ max-width: 10000px;
 max-height: 1000px;
 }
 
-#social-buttons {
-  text-align: center;
-}
-
 /* css related to the about page */
 .jumbotron {
   opacity: 0.7;
@@ -63,15 +59,10 @@ max-height: 1000px;
   background-attachment: fixed;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 
 <<<<<<< HEAD
 .dropdown {
   position: relative;
-=======
-.dropdown{
-  display:inline-block;
->>>>>>> ce073f2febcb8cb56490168e7892dad1fb7f5892
 =======
 .dropdown{
   display:inline-block;
