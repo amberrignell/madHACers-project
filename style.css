@@ -16,8 +16,10 @@ max-height: 1000px;
 }
 
 h1 {
+  font-size: 100px;
   font-family: 'Monoton', cursive;
 }
+
 img {
   width: 33%;
   height: auto;
